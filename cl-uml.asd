@@ -8,7 +8,8 @@
 (defsystem :cl-uml
   :version "0.2.0"
   :license "BSD"
-  :author "Liutos"
+  :author "Liutos <mat.liutos@gmail.com>"
+  :serial t
   :components ((:file "package")
-	       (:file "main" :depends-on ("package")))
+	       (:file "main"))
   :description "A set of utilities written in Common Lisp for generating .dot file of UML class diagrams and relations.")
